@@ -1,0 +1,34 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02caf7;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: yellow;
+    border-radius: 50px;
+    width: 100%;
+    margin: 40px;
+}
+
+.pokemon-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.pokemon-item p {
+    background-color: white;
+}
+
+
+
